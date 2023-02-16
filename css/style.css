@@ -252,6 +252,10 @@ h2 {
     text-decoration: underline;
 }
 
+.main-link-title {
+    margin-bottom: 25px;
+}
+
 .main-link-title:hover {
     color: #b59f5b;
 }
@@ -260,7 +264,6 @@ h2 {
     font-size: 0.75rem;
     font-weight: normal;
     color: #888888;
-    line-height: 40px;
 }
 
 .main-author {
@@ -389,9 +392,13 @@ form {
     border: 3px solid #b59f5b;
 }
 
+.link-tegs {
+    font-size: 0.75rem;
+}
+
 /* TOPIC */
 .topic-item:nth-child(n+2) {
-    padding-top: 20px;
+    padding-top: 13px;
 }
 
 .topic-item {
@@ -693,6 +700,14 @@ form {
         margin-right: 35px;
     }
 
+    .main-title {
+        margin-bottom: 37px;
+    }
+
+    .main-link-title {
+        font-size: 1.06rem;
+    }
+
     /* PRODUCT */
 
     .container-product-card {
@@ -726,6 +741,8 @@ form {
     .container-content {
         max-width: 1200px;
         margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .burger {
@@ -800,8 +817,20 @@ form {
         flex-wrap: nowrap;
     }
 
+    .aside-title-trends {
+        font-size: 1.25rem;
+    }
+
     .trends {
-        width: 24.7vw;
+        min-width: 24vw;
+    }
+
+    .trends:nth-child(n+2) {
+        margin-left: 1px;
+    }
+
+    .trends-link-title {
+        font-size: 1.25rem;
     }
 
     /* MAIN */
@@ -823,11 +852,29 @@ form {
     }
 
     .main-frame {
-        margin-top: -15px;
+        margin-top: -8px;
+    }
+
+    .main-link-title {
+        font-size: 1.25rem;
+    }
+
+    .main-text {
+        font-size: 0.94rem;
+        margin-top: 30px;
     }
 
     .side-bar {
         margin-top: -44px;
+    }
+
+    /* ASAID POSTS */
+    .aside-title-posts {
+        font-size: 0.875rem;
+    }
+
+    .aside-link-title {
+        font-size: 0.875rem;
     }
 
     /* PRODUCT */
