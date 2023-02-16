@@ -143,7 +143,7 @@ h2 {
     font-size: 1.625rem;
     color: #ffffff;
     text-align: center;
-    }
+}
 
 /* TRENDS */
 
@@ -342,6 +342,7 @@ form {
     border: none;
     cursor: pointer;
 }
+
 .button:hover {
     background-color: #323232;
 }
@@ -466,7 +467,7 @@ form {
     padding: 45px 18px 25px;
     position: relative;
     box-sizing: border-box;
- }
+}
 
 .product-card-price {
     font-size: 1.25rem;
@@ -846,6 +847,6 @@ form {
     }
 
     .product-card-body {
-       min-height: 274px;
+        min-height: 274px;
     }
 }
