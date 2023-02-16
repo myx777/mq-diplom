@@ -838,7 +838,7 @@ form {
     }
 
     .product-card {
-        max-width: 19vw;
+        min-width: 346px;
         margin: 0 auto;
     }
 
@@ -848,5 +848,10 @@ form {
 
     .product-card-body {
         min-height: 274px;
+    }
+
+    .product-card-hare {
+        margin-left: 64px;
+        margin-right: 64px;
     }
 }
