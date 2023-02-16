@@ -725,6 +725,9 @@ form {
         flex-grow: 1;
     }
 
+    .product-card-body {
+        min-height: 274px;
+    }
 }
 
 /* MEDIA 1200px */
@@ -891,10 +894,6 @@ form {
 
     .product-card-body-pillow {
         padding-bottom: 25px;
-    }
-
-    .product-card-body {
-        min-height: 274px;
     }
 
     .product-card-hare {
